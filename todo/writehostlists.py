@@ -20,7 +20,7 @@ def converttonewline(hostlist):
   xl=[]
   xl=(hostlists.expand(hostlist))
   fw.write('\n'.join(xl))
-  print '\n'.join(xl)
+  print type('\n'.join(xl))
 
 def main():
   if args.expand2comma:
