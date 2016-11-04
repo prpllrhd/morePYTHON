@@ -4,6 +4,8 @@ addnum
 remspace
 ####3. diff between read,readline and readlines
 read
-
-
+####4. write a class with 2 different functions to read a hostlist and expand seperated by comma and expand seperated by newline
+expandhosts
+####5. write a script which takes numbers as input. and print a list and creates 2 lists from it with odd nos and even nos
+getoddeven.py
 
