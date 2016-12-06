@@ -1,0 +1,4 @@
+Nov 20 03:15:03 spedsaid rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="8079" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Nov 20 21:21:09 spedsaid yca-cert: yca-cert
+Nov 20 22:59:16 spedsaid sudo:     samy : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/samy ; USER=root ; COMMAND=/bin/cat /var/log/all
+Nov 20 22:59:22 spedsaid sudo:     samy : TTY=pts/0 ; PWD=/home/samy ; USER=root ; COMMAND=/bin/cat /var/log/all

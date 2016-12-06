@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 #!/home/y/bin64/python
->>>>>>> b6c13399c281377103be9ad322e2e5bdd56b1e3e
 import argparse
 def fib(n):
   a,b=0,1
