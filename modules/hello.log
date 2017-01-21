@@ -1,0 +1,10 @@
+2017-01-14 17:09:11,949 - __main__ - INFO - hello baby
+%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+
+2017-01-14 17:38:25,232 - __main__ - INFO - hello baby
+2017-01-14 17:38:30,073 - __main__ - INFO - hello baby
+2017-01-14 17:38:30,978 - __main__ - INFO - hello baby
+2017-01-14 17:38:40,402 - __main__ - INFO - hello baby
+2017-01-14 20:13:55,514 - __main__ - INFO - hello baby
+2017-01-14 20:13:56,174 - __main__ - INFO - hello baby
