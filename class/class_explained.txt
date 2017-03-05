@@ -1,4 +1,6 @@
-mymodule.py 
+#!/usr/bin/env python
+##mymodule.py 
+###ref: https://docs.python.org/3/tutorial/classes.html
 
 class myclass:
 	def __init__(self):
@@ -6,9 +8,9 @@ class myclass:
 	def attribute1(self):
 		pass
 
-import mymodule
-a = mymodule.attribute1
+###import mymodule
+###a = mymodule.attribute1
 ##a => namespace
 ##myclass => object
-attribute1 => attribute of object myclass
+##attribute1 => attribute of object myclass
 
