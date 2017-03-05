@@ -1,0 +1,14 @@
+mymodule.py 
+
+class myclass:
+	def __init__(self):
+		pass
+	def attribute1(self):
+		pass
+
+import mymodule
+a = mymodule.attribute1
+##a => namespace
+##myclass => object
+attribute1 => attribute of object myclass
+
