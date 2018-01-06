@@ -7,4 +7,4 @@ for each in mylist:
   dict.setdefault(each[1],[]).append(each[2])
   dict.setdefault(each[1],[]).append(each[3])
   dict.setdefault(each[1],[]).append(each[5])
-print dict['19']
+print (dict['19'])

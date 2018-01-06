@@ -1,7 +1,5 @@
-from fabric.api import run, env
-env.warn_only = True
-env.hosts = ['spedsaid.corp.gq1.yahoo.com']
-command = "date"
-x = run(command, capture=True)
-print x.stdout
-print x.stderr
+#!/usr/local/bin/env python2.7
+from fabric.api import run
+def getOS():
+	run('uname -a')
+

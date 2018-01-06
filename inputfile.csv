@@ -1,0 +1,64 @@
+edit "aaaa"
+set associated-interface "trust"
+set subnet 192.182.33.33 255.255.255.255
+next
+edit "aaab"
+set associated-interface "trust"
+set subnet 192.182.33.43 255.255.255.255
+next
+edit "aaac"
+set associated-interface "trust"
+set subnet 192.182.33.53 255.255.255.255
+next
+edit "aaad"
+set associated-interface "trust"
+set subnet 192.182.33.63 255.255.255.255
+next
+edit "aaae"
+set associated-interface "trust"
+set subnet 192.182.33.73 255.255.255.255
+next
+edit "aaaf"
+set associated-interface "trust"
+set subnet 192.182.33.83 255.255.255.255
+next
+edit "aaag"
+set associated-interface "trust"
+set subnet 192.182.33.93 255.255.255.255
+next
+edit "aaah"
+set associated-interface "trust"
+set subnet 192.182.33.34 255.255.255.255
+next
+edit "aaai"
+set associated-interface "trust"
+set subnet 192.182.33.35 255.255.255.255
+next
+edit "aaaj"
+set associated-interface "trust"
+set subnet 192.182.33.36 255.255.255.255
+next
+edit "aaak"
+set associated-interface "trust"
+set subnet 192.182.33.37 255.255.255.255
+next
+edit "aaal"
+set associated-interface "trust"
+set subnet 192.182.33.39 255.255.255.255
+next
+edit "aaam"
+set associated-interface "trust"
+set subnet 192.182.33.39 255.255.255.255
+next
+edit "aaan"
+set associated-interface "trust"
+set subnet 192.182.33.30 255.255.255.255
+next
+edit "aaao"
+set associated-interface "trust"
+set subnet 192.182.33.31 255.255.255.255
+next
+edit "aaap"
+set associated-interface "trust"
+set subnet 192.182.33.32 255.255.255.255
+next

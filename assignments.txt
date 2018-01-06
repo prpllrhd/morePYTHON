@@ -3,3 +3,7 @@ Finding duplicate integers from a list
 Write a function that checks whether any permutation of an input string is a palindrome.
 Make a prime number list from (1,100)
 read about join,split,strip,replace
+
+a file contains hostnames. verify the file and if the file does not contain the hostnames, append them 
+so read both the bigfile in memory and see if big file contains any of the hostnames, add thoso to the listitems
+

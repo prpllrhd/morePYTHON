@@ -1,0 +1,12 @@
+count_words.py
+countshell.py
+exampleDict1.py
+get_colo.py
+index.txt
+learnDict.py: simple script to print out dict.items()
+learnDict3.py: creating a dict from tuples.
+learnDict4.py: creating a dict from tuples using setdefault	
+messages
+passwd
+passwordfields.py
+split.py

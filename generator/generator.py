@@ -2,8 +2,8 @@
 def firstn(n):
     num = 0
     while num < n:
-        yield num
-        num += 1
+        yield (num*num)
 
-sum_of_first_n = sum(firstn(1000000000000))
-print sum_of_first_n
+sum_of_first_n = firstn(100)
+for a in sum_of_first_n:
+  print a
