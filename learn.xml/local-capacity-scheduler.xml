@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="/home/gs/conf/local/local-capacity-scheduler-allocations.xml"/>
+  <property>
+    <name>yarn.scheduler.capacity.maximum-am-resource-percent</name>
+    <value>0.25</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.maximum-applications</name>
+    <value>300000</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.acl_administer_queue</name>
+    <value> gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.acl_submit_applications</name>
+    <value> gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.apg_dailyhigh_p3.acl_administer_queue</name>
+    <value> gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.apg_dailyhigh_p3.acl_submit_applications</name>
+    <value>adwdrd_p,adwprd,aga_se,anbu,andyrhee,anishm,arcprod,cadsxdev,cd_grid,cmmgrid,csheldon,diy_prod,fll,gdongrid,gemsgrid,gent,gpe,jagpip,ksindex,ksnctr,libup,mayukhb,meganb,mshakira,mwaller,nctr,p_aries,p_aviary,p_btmp,p_condor,p_gdgrid,p_gems,p_gseg,p_gt,p_kite,p_ksnctr,p_kstone,p_nfcst,p_parrot,p_ptarg,p_qbert,p_quad,p_srt,p_ssbow,p_ssnctr,p_ssqdb,p_tp,p_xafrtb,p_ystone,qbert,quad,s_kite,s_parrot,srt_dev,ssqdb,venus,brx_data_user gdongrid,venus,@apg_dailyhigh_p3</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.apg_dailylow_p6.acl_administer_queue</name>
+    <value> gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.apg_dailylow_p6.acl_submit_applications</name>
+    <value>adwdrd_p,adwprd,aga_se,anbu,andyrhee,anishm,arr_dev,bajauser,beap_log,btmpbld,cadsxdev,cadsxprd,cmmgrid,csheldon,dapr_dev,directu,fll,gdongrid,gpe,jagpip,ksmodel,local_be,mayukhb,mb_prd,mshakira,ngdfcst,p_adog,p_arr,p_brf,p_btmp,p_cbe,p_cpvi,p_dapr,p_dots,p_genome,p_gseg,p_gt,p_kite,p_pdude,p_qbert,p_quad,p_srt,p_ssqdb,p_stpy,p_tgtrpt,p_vdash,pratikb,qbert,quad,s_kite,srini,srt_dev,ssqdb,tgtrpt,tp,tts,uadgetlp,zipline,p_tps gdongrid,ngdfcst,tp,@apg_dailylow_p6</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.apg_dailymedium_p5.acl_administer_queue</name>
+    <value> gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.apg_dailymedium_p5.acl_submit_applications</name>
+    <value>adwdrd_p,adwprd,aga_se,anbu,andyrhee,anishm,btdb,cadsxdev,cadsxprd,cd_grid,csheldon,directu,dp,fll,gbp_dev,gdongrid,gemsgrid,gent,gpe,jagpip,jaguarg,ksdata,libup,manojk,mayukhb,meganb,mshakira,mwaller,p_arr,p_audit,p_aviary,p_baja,p_btdb,p_condor,p_cpcv,p_dprice,p_gbp,p_gdgrid,p_gems,p_genome,p_gt,p_ionix,p_kite,p_nfcst,p_ngdexp,p_parrot,p_ptarg,p_saca,p_tp,p_xafapt,pmudda,pricedp,qbert,quad,s_aviary,s_kite,s_parrot,sacauser,ss_opt,ssqdb,tp,uadgetls,vdash,venus,yaadv gdongrid,tp,venus,@apg_dailymedium_p5</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.apg_hourlyhigh_p1.acl_administer_queue</name>
+    <value> gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.apg_hourlyhigh_p1.acl_submit_applications</name>
+    <value>aga_se,anbu,andyrhee,anishm,arcprod,bsingh,cadsxdev,cadsxprd,csheldon,fll,gpe,jagpip,mayukhb,mshakira,ngdg,p_aviary,p_baja,p_condor,p_dads,p_gdgrid,p_ngd,p_parrot,s_parrot,uadgetls,vvenkata @apg_hourlyhigh_p1</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.apg_hourlylow_p4.acl_administer_queue</name>
+    <value> gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.apg_hourlylow_p4.acl_submit_applications</name>
+    <value>aga_se,anbu,andyrhee,anishm,cadsxdev,cadsxprd,csheldon,danhiel,dapr_dev,diy_stg,fll,ghorvath,gnomeprd,gpe,ksdata,mayukhb,midasprd,mshakira,ngdg,p_adix,p_dapr,p_ionix,p_kite,p_nfcst,p_pdude,p_tgtrpt,p_xafapt,p_xafrtb,pmudda,s_kite,tgtsci,tpoozie,uadgetlp,venus,vvenkata,ywa,tns_ils tgtsci,venus,@apg_hourlylow_p4</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.apg_hourlymedium_p2.acl_administer_queue</name>
+    <value> gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.apg_hourlymedium_p2.acl_submit_applications</name>
+    <value>adwdrd_p,adwprd,aga_se,anbu,andyrhee,anishm,cadsxdev,cadsxprd,csheldon,diy_prod,diy_stg,fll,gpe,jagpip,jaguarg,mayukhb,mshakira,nctr,ngdg,ngdgrid,p_aries,p_aviary,p_baja,p_btmp,p_condor,p_gseg,p_kite,p_nfcst,p_ngd,p_ngdcmp,p_parrot,p_srt,p_ssnctr,pmudda,s_parrot,tpoozie,vdash,vvenkata,ybi_etl ngdgrp,ybi_etl,@apg_hourlymedium_p2</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.apg_p7.acl_administer_queue</name>
+    <value> gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.apg_p7.acl_submit_applications</name>
+    <value>aag,aallison,aarun,abordo,adevassy,adwaitk,adwdev,adwdrd_p,adwprd,adwstg,afarahat,aga_se,ahazanov,ajayb,ajays,akamath,akv,alanka,alexande,ambekars,ameya,amlanh,ampd_prd,ananyas,anatcohen,anbu,anishm,ankitb,ankurj,annur,anooph,anshuv,anupjain,apoorvd,aptdev,arupde,asarma,ashishn,ashukla,ashwaths,assafs,attila,avancerp,avis,avishek2,awagle,awarrier,bagavath,balusss,barretto,bashford,bdang,berkovid,bernotas,bharatbs,bhide,bmukka,bobbiek,boliu1,brianw,brx_data_user,bseenu,btmp,btmp_cmm,burir,burwellm,cadsxdev,cadsxprd,cakila,cbigler,cedarpan,cetintas,chaganti,chayong,chensong,chetann,chloech,chrisyan,cmmgrid,cornilss,csharma,csheldon,curtishu,cwilliamson,cykwan,d_kathak,d_kite,danchen,danhiel,dapr_dev,daryan,datong,davidfig,dbowes,dclutter,deekshal,deepakks,dheerajk,dhuliawt,diegoc,disharma,djurikom,dkini,dmcwherter,dnehete,donamuk,donglinn,dpelleg,dpo_query,dq-grid,drhops,duseja,dustine,dwillcox,dwivedi,egordien,erickl,ernests,ezax,florescu,ganesan,ganeshjk,gankur,garciaj,garshita,gbatra,gemsgrid,gergelyt,gmehta,gnomeprd,gokumar,gpe,gpfreitas,gpradeep,gseg,gshaked,gupsumit,gzge,hadas,haiyang,haleyt,hangqi,hanpl,harryfok,harshars,hhuang,himanshg,hmukhi,hnwang,hongyao,huangc,huijie,iamnguyen,ianflint,iftah,ivanlian,jacquesw,jagpip,jaimem,jakub,janithkv,januspro,jbice,jbnatar,jcreddy,jeffreyb,jguiton,jianhuang,jingge,jmartell,johnj,jonavni,joshsch,jrao,jtolar,jvijay,jwpan,kailiu,karolina,kaushiks,kclee,kecso,kerzhner,khanwale,kilroy,klish,kmohankrishna,knaveen,koneti,kothan,kpigrid,kprice,ksdata,kunals,kylejao,lalitp,leish,leskovec,levonne,liangwang,linak,linma,llywang,locguser,lpalani,lram,lucyyang,lyang,madhukan,madhukm,mahrens,mariogc,maslynt,maulik,mayukhb,mb_prd,mdallos,meizhu,melnik,mgilling,midasdev,midasprd,mihajlo,mingsi,minjui,minnieg,mkarthik,mmitchel,mpippin,mshakira,muchnik,musson,mwen,narayanb,neelan,nejal,neraliu,ngd_ffl,ngdcmp,ngdgrid,nikhilnk,ningcao,nipunc,nizang,ntshanth,orlandic,otateam,p_adac,p_btdb,p_dapr,p_gems,p_kite,p_srt,p_stpy,palaniap,parames,parul_hl,pbalaji,pcoorpad,peiji,pengyuan,pitecus,pmarcin,prasadch,pratikb,ptarar,pym_user,qili,qiliu,qingquan,qjin,qlu,quan,radeeng,raghavp,rajapal,rajeevra,rajeshkr,rakeshcm,ramat,ramdutt,rameshbm,ramji,ramkm,rampal,ravikp,raylee,rc,rhansen,rkant,rkishore,rmihalko,rmrahul,roiaddi,roopa,rpace,rsrinath,s_kathak,sadhanas,sandeept,sandsoni,sarun,scltgt,seatonc,seenae,selinaz,senapati,senthil,shabha,shad,shally,shaopeng,sharmakb,shiraste,shivaiah,shnayder,shonnig,shubha,shunrang,shuz,siddharn,simgeker,singhson,sivacj,slin3070,slobodan,somilr,soniaj,sravikri,srichara,srinathm,sriram85,srt_dev,ssbow,sslt,sszhao,subudhi,sujyothi,sumit,sumithra,surendar,sushmitk,svdixit,swathis1,tan,taneli,tarunb,tgtcb_p,tgtrpt,tjchou,tliu,tns_ils,toddm,tomsun,tong,tpoozie,tuan,uadgetls,umak,uminder,upushtgt,vadodkar,vaibhav,vasanthy,vijayakk,vinodb,vishalr,visu,vladan,vt,vvarun,vvenkata,wahabd,wbaker,weichih,wenhuih,wentong,wexler,wilde,wlauer,wlliang,wongjo,xiaohu,xiaoyao,xinghai,xrao,xueting,xujian,yadavn,yamamoto,yanjiao,yanll,yanmin,ymyue,yogeshka,yongz,yubin,yugan,yuvals,ywa,yyi,zezhen,ziv,zohar,zoheb btmp,ngdcmp,@acl_apg_p7</value>
+  </property>
+ <property>
+    <name>yarn.scheduler.capacity.root.grideng.acl_administer_queue</name>
+    <value> gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.grideng.acl_submit_applications</name>
+    <value>gmon,gmetrics,gadmin,dfsload gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.gridops.acl_administer_queue</name>
+    <value> gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.gridops.acl_submit_applications</name>
+    <value>gmon,gmetrics,gadmin,dfsload,ursdi gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.p_t.slingstone.acl_administer_queue</name>
+    <value> gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.p_t.slingstone.acl_submit_applications</name>
+    <value>anile,avachat,btmp,chensong,ericli,haines,hewei,hlp13nss,hlsscomp,hlsscore,hlssdev,hlssmail,hlssroup,hlssupp,mayukhb,na_grid,nadavg,p_btmp,p_ssbow,p_ursdi_fin,pint_up,qili,sanika,saurabhj,sb_grid,scr,smatta,srini,ss_ace,ss_ace_int,ss_ace_pii,ss_cap,ss_compass,ss_compass_dev,ss_cpadm,ss_cpcol,ss_cpdmp,ss_hattrick,ss_nrt,ss_rs,ss_up,ss_video,sudhav,suju,swapnil,yhan,yhong,yiweili,ykim btmp,ss_video,@acl_prod_slingstone</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.p_t.slingstone_rt.acl_administer_queue</name>
+    <value> gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.p_t.slingstone_rt.acl_submit_applications</name>
+    <value>bbhaskar,ericli,hlp13nss,junliu,mariogc,mayukhb,neethi,ss_nrt,sudhav @acl_prod_slingstone_rt</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.p_t.slingstone.acl_administer_queue</name>
+    <value> gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.p_t.slingshot.acl_administer_queue</name>
+    <value> gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.p_t.slingshot.acl_submit_applications</name>
+    <value>anile,chensong,huijie,jchyoung,mayukhb,na_grid,nadavg,p_btmp,p_gseg,p_ssbow,p_sslt,p_urs,p_ursdi,p_ursdi_fin,ppl_graph,scr,socuser,srini,suju,urs,ursdi,ursdi_fin,vemulapa,yhong,ykim urs,@acl_prod_slingshot</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.curveball.curveball_small.acl_administer_queue</name>
+    <value> gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.curveball.curveball_small.acl_submit_applications</name>
+    <value>abungsy,akagian,alenkube,alexbaev,alexmi,alterio,alynch,amellor,amolg,anaidu12,anatcohen,anilkg,antousias,asafa,asavitzky,atman,barbieri,bingyu,binlu,biswarup,brianhow,bud_prd,burir,bvikas,carney,cb_ds,cb_e2e,cb_nctr,cb_qb,cb_serve,cb_shark,cb_ys,cbmetric,cherukupalli,chloech,chungw,cow_prd,cqye,data-incubator,dbowes,defend,despoina,dhuliawt,donamuk,edmundwong,forrestm,galf,garycmh,gbaruch,gbatra,gmon,grebelo,gshaked,gtolomei,gulaysag,guoqiang,haines,hanpl,haocheng,hdas,heyuzhi,hilac,iftah,ivanlian,jand,jbrehmer,jdong,jithendr,jonavni,jonwu,kakkadm,kamranm,kenton,kezhou,kkamal,kodavati,linatw,loewed,makabee,mayukhb,mb_cd,mb_grid,mbron,mbstgrid,mchinazzi,michala,mmaddala,mmsmith,mulyadi,mwaller,mx3_prod,na_grid,nasid,nastgrid,nb,neetai,nizang,ofenton,orens,p_cbds,p_cbm,p_ssnctr,padmak,pb_grid,pchan,pengyuan,pmsangal,pnetto,prajit,pranavbhole,prashmi,pravchak,prigupta,puya,quan,rakeshrc,ramansh,raz,rcraig,ritesha,roppm,rrose,rsarkis,sandeept,sb_grid,sbstgrid,seanmac,shabha,shaharg,shivan,shoujunsu,sidgupta,silvestr,smjoshua,snoopy,sofiakim,sonyad,ssheshu,sshishir,stevez,surajit,swatilal,swied,tamarl,tarunb,teppo,toddm,tpcb_prd,trevi,tuan,vbatygin,vikasp,vishalr,vwehner,wanqiang,xbai,xporter,yanava,yigal,yorkchan,yoshib,yuqinglu,zenithz,ziv,flurry_rpt @acl_prod_curveball_small</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.curveball.curveball_med.acl_administer_queue</name>
+    <value> gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.curveball.curveball_med.acl_submit_applications</name>
+    <value>bud_prd,cb_ds,cb_e2e,cb_nctr,cb_qb,cb_shark,cb_ys,cow_audit,cow_prd,gmon,mb_grid,mx3_prod,na_grid,p_cbm,p_qbert,p_quad,p_ssnctr,pb_grid,sb_grid,tpcb_prd,rb_prd @acl_prod_curveball_med</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.curveball.curveball_large.acl_administer_queue</name>
+    <value> gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.curveball.curveball_large.acl_submit_applications</name>
+    <value>bud_prd,cb_ds,cow_prd,gmon,mb_grid,mx3_prod,na_grid,pb_grid,sb_grid,tpcb_prd,dp_bnz_p, @acl_prod_curveball_large</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.default.acl_administer_queue</name>
+    <value> gridadmin</value>
+  </property>
+  <property>
+    <name>yarn.scheduler.capacity.root.default.acl_submit_applications</name>
+    <value>*</value>
+  </property>
+</configuration>
