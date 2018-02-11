@@ -1,0 +1,8 @@
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+remote.origin.url=git@github.com:sameergawande/python.git
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
