@@ -1,0 +1,9 @@
+'''
+write script to
+a)read a xml file and print specific fields
+
+b)update a xml file with a new section
+
+c)delete a specific section
+
+d)update a section to replace certain text in  a section
