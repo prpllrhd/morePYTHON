@@ -1,0 +1,15 @@
+##
+concepts to understand
+try
+except
+else
+finally raise
+assert
+handle,catch,trap exceptions
+
+url's
+https://www.youtube.com/watch?v=E-AykQj84Jk
+
+raise:
+https://www.youtube.com/watch?v=xiNbGFf_kD0
+
