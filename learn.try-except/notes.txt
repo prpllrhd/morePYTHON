@@ -9,6 +9,7 @@ handle,catch,trap exceptions
 
 url's
 https://www.youtube.com/watch?v=E-AykQj84Jk
+https://www.youtube.com/watch?v=BMtJbrvwlmo&t=446s
 
 raise:
 https://www.youtube.com/watch?v=xiNbGFf_kD0
