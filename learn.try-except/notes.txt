@@ -13,4 +13,5 @@ https://www.youtube.com/watch?v=BMtJbrvwlmo&t=446s
 
 raise:
 https://www.youtube.com/watch?v=xiNbGFf_kD0
-
+https://www.geeksforgeeks.org/user-defined-exceptions-python-examples/
+https://www.youtube.com/watch?v=2tWDA7SclXk
