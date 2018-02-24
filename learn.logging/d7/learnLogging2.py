@@ -15,15 +15,19 @@ def divnum(a,b):
 	return a/b
 
 def main():
-	x,y=90,15
+	x,y=90,0
 	add = addnum(x,y)
 	logging.debug("{} + {} = {}".format(x,y,add))
 
 	mul = mulnum(x,y)
 	logging.debug("{} * {} = {}".format(x,y,mul))
 
-	div = divnum(x,y)
-	logging.debug("{} / {} = {}".format(x,y,div))
+	try:
+		div = divnum(x,y)
+	except ZeroDivisionError:
+		logging.error("Tried to divide by zero")
+	else:
+		logging.debug("{} / {} = {}".format(x,y,div))
 
 	sub = subnum(x,y)
 	logging.debug("{} - {} = {}".format(x,y,sub))

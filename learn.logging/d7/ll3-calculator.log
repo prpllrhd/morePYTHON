@@ -1,0 +1,19 @@
+1519504024.794680:WARNING:10 + 0 = 10
+1519504049.572484:WARNING:10 + 0 = 10
+1519504049.572571:WARNING:10 - 0 = 10
+1519504049.572620:WARNING:10 X 0 = 10
+1519504049.572666:ERROR:trying to divide 10 by 0
+1519504106.129129:WARNING:10 + 0 = 10
+1519504106.129213:WARNING:10 - 0 = 10
+1519504106.129271:WARNING:10 X 0 = 10
+1519504106.129317:ERROR:trying to divide 10 by 0
+1519504149.081747:WARNING:10 + 0 = 10
+1519504149.081833:WARNING:10 - 0 = 10
+1519504149.081885:WARNING:10 X 0 = 10
+1519504149.081939:ERROR:trying to divide 10 by 0
+Traceback (most recent call last):
+  File "ll3calculator.py", line 38, in main
+    division=div(x,y)
+  File "ll3calculator.py", line 22, in div
+    return a/b
+ZeroDivisionError: integer division or modulo by zero
