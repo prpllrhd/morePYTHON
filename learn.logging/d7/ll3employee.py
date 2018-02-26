@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import logging
 logger=logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
+logger.setLevel = logging.DEBUG
 formatter=logging.Formatter('%(asctime)s:%(message)s')
 file_handler = logging.FileHandler("employee.log")
 file_handler.setFormatter(formatter)
