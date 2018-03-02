@@ -8,6 +8,10 @@ assert
 handle,catch,trap exceptions
 
 url's
+https://docs.python.org/2/tutorial/errors.html
+
+video:
+
 https://www.youtube.com/watch?v=E-AykQj84Jk
 https://www.youtube.com/watch?v=BMtJbrvwlmo&t=446s
 
@@ -15,3 +19,9 @@ raise:
 https://www.youtube.com/watch?v=xiNbGFf_kD0
 https://www.geeksforgeeks.org/user-defined-exceptions-python-examples/
 https://www.youtube.com/watch?v=2tWDA7SclXk
+http://www.ianbicking.org/blog/2007/09/re-raising-exceptions.html
+http://www.markbetz.net/2014/04/30/re-raising-exceptions-in-python/
+https://stackoverflow.com/questions/18188563/how-to-re-raise-an-exception-in-nested-try-except-blocks
+https://nedbatchelder.com/blog/200711/rethrowing_exceptions_in_python.html
+https://franklingu.github.io/programming/2016/06/30/properly-reraise-exception-in-python/
+https://blog.ionelmc.ro/2014/08/03/the-most-underrated-feature-in-python-3/

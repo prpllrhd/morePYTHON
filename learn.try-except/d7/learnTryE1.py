@@ -21,7 +21,7 @@ def main():
 	try:
 		divide = x/y
 	except ZeroDivisionError:
-		logger.warn("you are attempting a zerodivision by dividing {} by {}".format(x,y))
+		logger.exception("you are attempting a zerodivision by dividing {} by {}".format(x,y))
 	else:
 		print divide
 
