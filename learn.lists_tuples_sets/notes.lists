@@ -1,0 +1,59 @@
+courses.insert() => recommended to add items and not a list as the whole list would become 1 items as shown in example.	
+courses=['english','hindi','marathi','geography']
+courses2=['maths','compsci']
+courses.insert(0,courses2)
+courses
+[['maths', 'compsci'], 'english', 'hindi', 'marathi', 'geography']
+
+courses.append() => recommended to add items and not a list as the whole list would become 1 items as shown in example
+courses.append(courses2)
+>>> courses
+['english', 'hindi', 'marathi', 'geography', ['maths', 'compsci']]
+
+courses.extend => can extend a new list to the existing list. does not work with individual items.
+courses.extend(courses2)
+>>> courses
+['english', 'hindi', 'marathi', 'geography', 'maths', 'compsci']
+
+courses.remove() => use to remove a single list item. cannot work with multiple items.
+
+courses.pop() => it removes the last item and it prints out the item that is being removed.
+
+
+other tasks
+reverse => in place reverse function. so courses.reverse() would reverse the items in the list.
+sorted [ascending/descending] 
+example: sorted(courses). in place sort and not changing the list
+
+min,max
+index : example: courses.index("hindi")
+using "in": example: print ("sfsf" in courses)
+enumerate: example: for count,i in enumerate(courses,start=1):  print count,i
+join : this creates a string. so to create a string like "maths,english,hindi" : ",".join(courses)
+
+split: this create a list from string. joined.split(",")
+
+#####TUPLE######
+tuple =>similar to set but immutable.
+
+#####SET######
+set => cannot assign duplicate values. has 3 useful functions
+courses = {"english","hindi","maths"}
+new = {"geography","history","biology"}
+
+what exists on courses and new
+>>> courses.intersection(new)
+set(['english'])
+
+what exists on courses and not on new
+>>> courses.difference(new)
+set(['maths', 'hindi'])
+
+courses.union(new)
+set(['biology', 'hindi', 'english', 'maths', 'history', 'geography'])
+
+
+
+
+
+
