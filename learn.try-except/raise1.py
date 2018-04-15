@@ -9,6 +9,7 @@ def getOutput(mssg):
 			raise Generic("This is bad news. Seems like some kind of error")
 		else:
 			print "No errors. Pls continue"
-	except Generic, e:
-		print ("BadNews",e.message)
+	except Generic,e:
+#		print ("BadNews",e.message)
+		raise
 getOutput("oops")
