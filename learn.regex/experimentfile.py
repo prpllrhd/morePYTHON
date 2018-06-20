@@ -13,6 +13,15 @@ Ms Puja Mehra
 Mrs Suman Patra
 '''
 
+http://www.google.com
+www.aol.com
+www.verizon.com
+uscis.gov
+stanford.edu
+www.oath.com
+https://www.fbi.gov
+www.irtc.com
+
 duplicates = "he he is a boy boy but but he also get"
 name = 'Sameer Gawande Mr Ravi Arora Mr. Ashwin Malhotra Mr. Ashwin Malhotra Ms Puja Mehra Mrs Suman Patra coreyms.com'
 
