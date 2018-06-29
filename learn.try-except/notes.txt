@@ -1,4 +1,7 @@
 ##
+####hints/common mistakes###
+1. remember to use logger.XXXX and not logging.XXXXX. it is very difficult to catch it as it looks very similar.
+2. 
 concepts to understand
 try
 except

@@ -8,4 +8,4 @@ for i in l.split():
     else:
         dict[i] = dict[i] + 1
 for key in dict:
-    print "Key ==>",key,"\nValue ==>",dict[key]
+    print key,"==>",dict[key]

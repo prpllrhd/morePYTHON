@@ -1,2 +1,11 @@
+####to_be_practiced#####
+use try except
+use logging
+use class
+use functions
+
+#use argparse
+#use  
+####Scripts######
 ##write a script to make a dictionary to read a file and col[0] as key and col[1,3,5] as values
 fileio/split.py
