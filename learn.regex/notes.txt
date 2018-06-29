@@ -1,0 +1,60 @@
+
+#
+#re.compile
+#to compile the search query
+#
+#
+#re.finditer
+#gives more information about the search result
+#
+#
+#re.findall
+#makes a tuple. if putting groups, it would find only the groups and it multiple groups, it would do tuples
+#
+#re.match
+#finds at start of string only
+#
+#
+#re.search
+#finds first search and once first search is done, does not search further.
+#
+#
+numbers = '''
+408-349-2100
+800 343 4422
+888 342 4325
+650.334.4563
+708.655.7151
+'''
+names = '''
+Sameer Gawande
+Mr Ravi Arora
+Mr. Ashwin Malhotra
+Ms Puja Mehra
+Mrs Suman Patra
+'''
+
+
+import re
+#findnum = re.compile(r'\d{3}[-.]\d{3}[-.]\d{4}')
+#find = findnum.finditer(numbers)
+#for each in find:
+#       print each
+
+findnumber = re.compile(r'(\d{3}\.\d{3}\.\d{4})')
+
+###findall
+searchnum = findnumber.findall(numbers)
+for num in searchnum:
+        print num
+
+##finditer
+searchnum = findnumber.finditer(numbers)
+for num in searchnum:
+        print num.group(1)
+
+
+findnames = re.compile(r"(M|rs|s)?\.?\s?[A-Z]\w*\s?\w*")
+names = findnames.findall(names)
+for a in names:
+	print a.group(1)

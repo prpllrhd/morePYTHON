@@ -4,4 +4,4 @@ try:
 		a = x.read()
 	print a
 except Exception as e:
-	print "Error {} ".format(e)
+	print "Errorrrrrr {} ".format(e)
