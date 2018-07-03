@@ -1,0 +1,7 @@
+##
+"""
+from collections import OrderedDict
+this helps preserve the original insertion order when iterating.
+d = OrderedDict()
+d['foo']=1
+d['bar']=2
