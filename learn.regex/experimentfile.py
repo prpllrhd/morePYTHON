@@ -22,7 +22,7 @@ www.oath.com
 https://www.fbi.gov
 www.irtc.com
 
-duplicates = "he he is a boy boy but but he also get"
+duplicates = "he he is a boy boy but but he also get ravi rahul ravi"
 name = 'Sameer Gawande Mr Ravi Arora Mr. Ashwin Malhotra Mr. Ashwin Malhotra Ms Puja Mehra Mrs Suman Patra coreyms.com'
 
 import re
@@ -48,7 +48,7 @@ import re
 #        print a
 
 #################numbers##################
-###find phone number in any format eg: xxx xxx xxxx or xxx-xxx-xxxx or xxx.xxx.xxxx
+###find phone number in any format eg: xxx xxxxx xxxx or xxx-xxx-xxxx or xxx.xxx.xxxx
 #findnumber = re.compile(r'(\d{3}.\d{3}.\d{4})')
 
 ###find phone number in only 2 formats xxx-xxx-xxxx or xxx.xxx.xxxx and exclude xxx*xxx*xxxx and exclude xxx xxx xxxx
