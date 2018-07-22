@@ -1,0 +1,2 @@
+this this is a very very interesting word where each word is counted
+counted and if it sees the word    word again it points it.
