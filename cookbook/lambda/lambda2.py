@@ -5,14 +5,14 @@ map in lambda is used when you want to treat all numbers equally such as here wh
 """
 def script():
 	numbers = [1,2,3,4,5,6]
-	out = map(lambda x : x*2, numbers)
+	out = map(lambda x : x**2, numbers)
 	print (list(out))
 def help():
 	print (__doc__)
 
 def main():
-#	script()
 	help()
+	script()
 
 if __name__=="__main__":
 	main()

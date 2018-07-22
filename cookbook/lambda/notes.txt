@@ -3,4 +3,5 @@ following topics are covered.
 ->map
 ->reduce
 ->filter
+->functools.reduce
 

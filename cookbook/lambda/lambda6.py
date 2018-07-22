@@ -10,7 +10,7 @@ def script():
 def help():
 	print(__doc__)
 def main():
-#	script()
 	help()
+	script()
 if __name__=="__main__":
 	main()

@@ -11,7 +11,7 @@ def help():
 	print (__doc__)
 def main():
 	help()
-#	script()
+	script()
 
 if __name__=="__main__":
 	main()
