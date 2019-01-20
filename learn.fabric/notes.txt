@@ -1,9 +1,10 @@
 ###concepts
 roles
-env
+env:{'http://docs.fabfile.org/en/1.14/usage/env.html#env-vars'}
 task
 parallel
 run_once
 get
 put
+with hide('running')
 

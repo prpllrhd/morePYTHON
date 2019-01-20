@@ -1,4 +1,4 @@
-#!/Users/samy/anaconda/bin/python
+#!/usr/bin/env python
 names=['samy','rahul','samy','rakhee']
 dict={}
 for i in names:
