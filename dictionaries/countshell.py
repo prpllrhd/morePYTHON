@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 dict={}
 f=(i.strip() for i in open("/etc/passwd"))
+#print f
+
 b = [j for j in f]
 print b
 #for each in rlines:

@@ -1,0 +1,2 @@
+this is a regular text file that you should read. It contains words that you want to read and count.
+this file tries to count the words that repeat more than 5 times

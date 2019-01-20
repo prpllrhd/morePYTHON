@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+i
+=======
+##
+"""
+from collections import OrderedDict
+this helps preserve the original insertion order when iterating.
+d = OrderedDict()
+d['foo']=1
+d['bar']=2
+>>>>>>> ac7b065fe41036754e0875a967a81eeaeac2fcae

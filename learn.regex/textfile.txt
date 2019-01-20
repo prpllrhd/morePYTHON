@@ -1,0 +1,17 @@
+numbers = '''
+408-349-2100
+800 343 4422
+888 342 4325
+650.334.4563
+708.655.7151
+'''
+names = '''
+Sameer Gawande
+Mr Ravi Arora
+Mr. Ashwin Malhotra
+Ms Puja Mehra
+Mrs Suman Patra
+'''
+name = 'Sameer Gawande Mr Ravi Arora Mr. Ashwin Malhotra Mr. Ashwin Malhotra Ms Puja Mehra Mrs Suman Patra coreyms.com'
+
+

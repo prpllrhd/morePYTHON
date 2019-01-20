@@ -1,0 +1,8 @@
+###topics####
+re.split()
+str.startswith()
+str.endswith()
+str.replace()
+str.find()
+fnmatch & fnmatchcase()
+

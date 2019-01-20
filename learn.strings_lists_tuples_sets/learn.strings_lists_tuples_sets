@@ -1,0 +1,456 @@
+Script started on Sat Jul 21 14:42:35 2018
+[?1034h[02:42 PM] samy@C02VD34YHTDD ~/github/python/learn.strings_lists_tuples_sets> 
+[02:42 PM] samy@C02VD34YHTDD ~/github/python/learn.strings_lists_tuples_sets> 
+[02:42 PM] samy@C02VD34YHTDD ~/github/python/learn.strings_lists_tuples_sets> vi [K[K[Kpython
+Python 2.7.10 (default, Oct  6 2017, 22:29:07) 
+[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.31)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a="sameer"
+>>> type(a)
+<type 'str'>
+>>> a.split*([K[K()
+['sameer']
+>>> type(a)
+<type 'str'>
+>>> type(a)[5Ga.split()[5G[1@ba[1@=a[Pa[Paa[1@a.[1@ a[1@=a[1@ a[Pa[Pa[Pa[P.[1@ba[1@ a[1@=a[1@ a
+>>> b = a.split()[5Gtype(a)[K)[Kb)
+<type 'list'>
+>>> "".join(a)
+'sameer'
+>>> b
+['sameer']
+>>> b[Ka.split*[K('')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: empty separator
+>>> a.split('')[P.[1@b.
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'split'
+>>> b.split('')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'split'
+>>> a
+'sameer'
+>>> 
+KeyboardInterrupt
+>>> ^D
+[02:45 PM] samy@C02VD34YHTDD ~/github/python/learn.strings_lists_tuples_sets> cat sl[K[Klearn.strings_lists_tuples_sets 
+Script started on Sat Jul 21 14:42:35 2018
+[?1034h[02:42 PM] samy@C02VD34YHTDD ~/github/python/learn.strings_lists_tuples_sets> 
+[02:42 PM] samy@C02VD34YHTDD ~/github/python/learn.strings_lists_tuples_sets> 
+[02:42 PM] samy@C02VD34YHTDD ~/github/python/learn.strings_lists_tuples_sets> vi [K[K[Kpython
+Python 2.7.10 (default, Oct  6 2017, 22:29:07) 
+[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.31)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a="sameer"
+>>> type(a)
+<type 'str'>
+>>> a.split*([K[K()
+['sameer']
+>>> type(a)
+<type 'str'>
+>>> type(a)[5Ga.split()[5G[1@ba[1@=a[Pa[Paa[1@a.[1@ a[1@=a[1@ a[Pa[Pa[Pa[P.[1@ba[1@ a[1@=a[1@ a
+>>> b = a.split()[5Gtype(a)[K)[Kb)
+<type 'list'>
+>>> "".join(a)
+'sameer'
+>>> b
+['sameer']
+>>> b[Ka.split*[K('')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: empty separator
+>>> a.split('')[P.[1@b.
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'split'
+>>> b.split('')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'split'
+>>> a
+'sameer'
+>>> 
+KeyboardInterrupt
+>>> ^D
+[02:45 PM] samy@C02VD34YHTDD ~/github/python/learn.strings_lists_tuples_sets> cat sl[02:45 PM] samy@C02VD34YHTDD ~/github/python/learn.strings_lists_tuples_sets> cat learn.strings_lists_tuples_sets python[K[4Ps3dailyca [1Ppython3
+[02:45 PM] samy@C02VD34YHTDD ~/github/python/learn.strings_lists_tuples_sets> cat learn.strings_lists_tuples_sets python[K[4Ps3Script started on Sat Jul 21 14:45:44 2018
+[?1034h[02:45 PM] samy@C02VD34YHTDD ~/github/python/learn.strings_lists_tuples_sets> a="sameer rakhee"
+[02:45 PM] samy@C02VD34YHTDD ~/github/python/learn.strings_lists_tuples_sets> type([K[K[K[K[Kexit
+
+Script done on Sat Jul 21 14:46:01 2018
+Script started on Sat Jul 21 14:46:04 2018
+dailyca [1Ppython3
+[02:45 PM] samy@C02VD34YHTDD ~/github/python/learn.strings_lists_tuples_sets> scro[Kipt -a learn.strings_lists_tuples_sets 
+Script started, output file is learn.strings_lists_tuples_sets
+[?1034h[02:45 PM] samy@C02VD34YHTDD ~/github/python/learn.strings_lists_tuples_sets> a="sameer rakhee"
+[02:45 PM] samy@C02VD34YHTDD ~/github/python/learn.strings_lists_tuples_sets> type([K[K[K[K[Kexit
+
+Script done, output file is learn.strings_lists_tuples_sets
+[02:46 PM] samy@C02VD34YHTDD ~/github/python/learn.strings_lists_tuples_sets> script -a learn.strings_lists_tuples_sets 
+Script started, output file is learn.strings_lists_tuples_sets
+[?1034h[02:46 PM] samy@C02VD34YHTDD ~/github/python/learn.strings_lists_tuples_sets> [?1034h[02:46 PM] samy@C02VD34YHTDD ~/github/python/learn.strings_lists_tuples_sets> python
+Python 2.7.10 (default, Oct  6 2017, 22:29:07) 
+[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.31)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a="sameer rakhee"
+>>> type(a([K)
+<type 'str'>
+>>> " ".join[K[K[K[K[K[K[Kb = a.sp;it[K[K[Kpython
+Python 2.7.10 (default, Oct  6 2017, 22:29:07) 
+[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.31)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a="sameer rakhee"
+>>> type(a([K)
+<type 'str'>
+>>> " ".join[K[K[K[K[K[K[Kb = a.sp;it[K[K[Klitlit()
+>>> type(b)
+<type 'list'>
+>>> b
+['sameer', 'rakhee']
+>>> a.split()
+['sameer', 'rakhee']
+>>> ()
+>>> type(b)
+<type 'list'>
+>>> b
+['sameer', 'rakhee']
+>>> a.split()
+['sameer', 'rakhee']
+>>> c=list(a)
+>>> c
+['s', 'a', 'm', 'e', 'e', 'r', ' ', 'r', 'a', 'k', 'h', 'e', 'e']
+>>> c=list(a)
+>>> c
+['s', 'a', 'm', 'e', 'e', 'r', ' ', 'r', 'a', 'k', 'h', 'e', 'e']
+>>> a
+'sameer rakhee'
+>>> a
+'sameer rakhee'
+>>> set[K[K[Kd[Kset(d) = a
+  File "<stdin>", line 1
+SyntaxError: can't assign to function call
+>>> set(d) = a[K[K[K[K[K[K[K[Kd = set(a)
+>>> d
+set(['a', ' ', 'e', 'h', 'k', 'm', 's', 'r'])
+>>> typeset[K[K[Kd[Kset(d) = a
+  File "<stdin>", line 1
+SyntaxError: can't assign to function call
+>>> set(d) = a[K[K[K[K[K[K[K[Kd = set(a)
+>>> d
+set(['a', ' ', 'e', 'h', 'k', 'm', 's', 'r'])
+>>> type*[K*[K(d)
+<type 'set'>
+>>> a
+'sameer rakhee'
+>>> d = a.splut[K[Kit()
+>>> d
+['sameer', 'rakhee']
+>>> (d)
+<type 'set'>
+>>> a
+'sameer rakhee'
+>>> d = a.splut[K[Kit()
+>>> d
+['sameer', 'rakhee']
+>>> d =s[K set()
+>>> d = set()[6G[K = a.split()
+>>> d
+['sameer', 'rakhee']
+>>> type(d)
+<type 'list'>
+>>> type(d)[5Gd[K = a.split()[1@sa[1@ea[1@ta[1@(a[22G)d =s[K set()
+>>> d = set()[6G[K = a.split()
+>>> d
+['sameer', 'rakhee']
+>>> type(d)
+<type 'list'>
+>>> type(d)[5Gd[K = a.split()[1@sa[1@ea[1@ta[1@(a[22G)
+>>> d
+>>> d
+set(['rakhee', 'sameer'])
+>>> 
+set(['rakhee', 'sameer'])
+>>> d=tuple()
+>>> d
+()
+>>> d=tuple()[6G[K = set(a.split())[P([P([P([1@t([1@u([1@p([1@;([1@e([P([P([1@l([1@e(
+>>> d
+('sameer', 'rakhee')
+>>> d=tuple()
+>>> d
+()
+>>> d=tuple()[6G[K = set(a.split())[P([P([P([1@t([1@u([1@p([1@;([1@e([P([P([1@l([1@e(
+>>> d
+('sameer', 'rakhee')
+>>> a
+'sameer rakhee'
+>>> a=ty[Kyp[K[Kuple("sameer","rah[Kkhee[6G[K'=tuple("sameer","rakhee","yuvi[K[K[K[Kaai","yuvia
+'sameer rakhee'
+>>> a=ty[Kyp[K[Kuple("sameer","rah[Kkhee[6G[K'=tuple("sameer","rakhee","yuvi[K[K[K[Kaai","yuvi"","an[Kvni"_
+  File "<stdin>", line 1
+    a=tuple("sameer","rakhee","aai","yuvi","avni"_
+                                                 ^
+SyntaxError: invalid syntax
+>>> a=tuple("sameer","rakhee","aai","yuvi","avni"_[K)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: tuple() takes at most 1 argument (5 given)
+>>> a=tuple("sameer","rakhee","aai","yuvi","avni")[P([P([P([P([P([1@s([1@e([1@t(
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: set expected at most 1 arguments, got 5
+>>> a=set("sameer","rakhee","aai","yuvi","avni"),"an[Kvni"_
+  File "<stdin>", line 1
+    a=tuple("sameer","rakhee","aai","yuvi","avni"_
+                                                 ^
+SyntaxError: invalid syntax
+>>> a=tuple("sameer","rakhee","aai","yuvi","avni"_[K)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: tuple() takes at most 1 argument (5 given)
+>>> a=tuple("sameer","rakhee","aai","yuvi","avni")[P([P([P([P([P([1@s([1@e([1@t(
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: set expected at most 1 arguments, got 5
+>>> a=set("sameer","rakhee","aai","yuvi","avni")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: set expected at most 1 arguments, got 5
+>>> a=set("sameer","rakhee","aai","yuvi","avni")[P([P([P([1@t([1@u([1@p([1@e([P([1@l([1@e(
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: tuple() takes at most 1 argument (5 given)
+>>> a=tuple("sameer","rakhee","aai","yuvi","avni"))[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: set expected at most 1 arguments, got 5
+>>> a=set("sameer","rakhee","aai","yuvi","avni")[P([P([P([1@t([1@u([1@p([1@e([P([1@l([1@e(
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: tuple() takes at most 1 argument (5 given)
+>>> a=tuple("sameer","rakhee","aai","yuvi","avni"))[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K))[K
+>>> a
+('s', 'a', 'm', 'e', 'e', 'r')
+>>> a=tuple("sameer")[Pssameer")[K
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'sameer' is not defined
+>>> a=tuple(sameer)[6G[K))[K
+>>> a
+('s', 'a', 'm', 'e', 'e', 'r')
+>>> a=tuple("sameer")[Pssameer")[K
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'sameer' is not defined
+>>> a=tuple(sameer)[6G[K[Ka=set("sameer",'a[K[K"aai"a-[K[K)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: set expected at most 1 arguments, got 2
+>>> a=set("sameer","aai")[Ptt[P([P([1@t([1@u([1@p([1@;([1@e([P([P([1@;([1@l([1@e([P([P([P([1@l([1@e(
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: tuple() takes at most 1 argument (2 given)
+>>> a=tuple("sameer","aai")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: tuple() takes at most 1 argument (2 given)
+>>> a[Ka="sameer[Ka=set("sameer",'a[K[K"aai"a-[K[K)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: set expected at most 1 arguments, got 2
+>>> a=set("sameer","aai")[Ptt[P([P([1@t([1@u([1@p([1@;([1@e([P([P([1@;([1@l([1@e([P([P([P([1@l([1@e(
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: tuple() takes at most 1 argument (2 given)
+>>> a=tuple("sameer","aai")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: tuple() takes at most 1 argument (2 given)
+>>> a[Ka="sameer",","aai","rakjee[K[K[Khee"
+>>> "aai","rakjee[K[K[Khee"
+>>> a
+('sameer', 'aai', 'rakhee')
+>>> a
+('sameer', 'aai', 'rakhee')
+>>> b=list(a)
+>>> b
+['sameer', 'aai', 'rakhee']
+>>> r[Ktype9[K(a)
+<type 'tuple'>
+>>> b=list(a)
+>>> b
+['sameer', 'aai', 'rakhee']
+>>> r[Ktype9[K(a)
+<type 'tuple'>
+>>> type(a)[K[K[K[K[K[K[K" ".join9[K([5G[1@c"[1@="[1@ "[17Gb)
+>>> c
+'sameer aai rakhee'
+>>> type(a)[K[K[K[K[K[K[K" ".join9[K([5G[1@c"[1@="[1@ "[17Gb)
+>>> c
+'sameer aai rakhee'
+>>> type(c)
+<type 'str'>
+>>> type(c)
+<type 'str'>
+>>> 
+>>> 
+>>> 
+>>> 
+>>> a
+('sameer', 'aai', 'rakhee')
+>>> atype(c)[5Gc[K= " ".join(b)[5Gtype(a)[K[5Gb[K=list(a)[5Ga[K="sameer","aai","rakhee"[7G[6@tuple([27G)[K[7G[2Pset[26G[7G[2@tuple[28Ga
+('sameer', 'aai', 'rakhee')
+>>> atype(c)[5Gc[K= " ".join(b)[5Gtype(a)[K[5Gb[K=list(a)[5Ga[K="sameer","aai","rakhee"[7G[6@tuple([27G)[K[7G[2Pset[26G[7G[2@tuple[28G
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: tuple() takes at most 1 argument (2 given)
+>>> a=tuple("sameer","aai"),[P"[1@ "
+>>> a
+('s', 'a', 'm', 'e', 'e', 'r', 'a', 'a', 'i')
+>>> a=tuple("sameer" "aai")"[6G[K=tuple("sameer" "aai") [P"[1@,"[1@ "
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: tuple() takes at most 1 argument (2 given)
+>>> a=tuple("sameer", "aai")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: tuple() takes at most 1 argument (2 given)
+>>> a=tuple("sameer","aai"),[P"[1@ "
+>>> a
+('s', 'a', 'm', 'e', 'e', 'r', 'a', 'a', 'i')
+>>> a=tuple("sameer" "aai")"[6G[K=tuple("sameer" "aai") [P"[1@,"[1@ "
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: tuple() takes at most 1 argument (2 given)
+>>> a=tuple("sameer", "aai")[1@[(("sameer", "aai")]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'type' object has no attribute '__getitem__'
+>>> [1@[(("sameer", "aai")]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'type' object has no attribute '__getitem__'
+>>> a=tuple[("sameer", "aai")][P[[P[[P[[P[[P[
+>>> 
+>>> a
+[('sameer', 'aai')]
+>>> type(a)
+<type 'list'>
+>>> a=(1,2,2[K3)
+>>> a=(1,2,3)[5Gtype(a)[K
+<type 'tuple'>
+>>> a=tuple[("sameer", "aai")][P[[P[[P[[P[[P[
+>>> 
+>>> a
+[('sameer', 'aai')]
+>>> type(a)
+<type 'list'>
+>>> a=(1,2,2[K3)
+>>> a=(1,2,3)[5Gtype(a)[K
+<type 'tuple'>
+>>> type(a)[5Ga=(1,2,3)[5Gtype(a)[K[5Ga[K=[("sameer", "aai")][K[20G[K[10G[K[5G[Kq[Ka = ("sameer","rakee[K[Khee")
+>>> type(a)
+<type 'tuple'>
+>>> type(a)[5Ga = ("sameer","rakhee"),)")a)a)type(a)[5Ga=(1,2,3)[5Gtype(a)[K[5Ga[K=[("sameer", "aai")][K[20G[K[10G[K[5G[Kq[Ka = ("sameer","rakee[K[Khee")
+>>> type(a)
+<type 'tuple'>
+>>> type(a)[5Ga = ("sameer","rakhee"),)")a)a)i)")
+>>> a = ("sameer","rakhee","aai")[5Ga = [1@t([1@y([1@p([1@e([P([P([P([1@u([1@p([1@l([1@e(
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: tuple() takes at most 1 argument (3 given)
+>>> a = tuple("sameer","rakhee","aai")[9G[5P([34G
+>>> i)")
+>>> a = ("sameer","rakhee","aai")[5Ga = [1@t([1@y([1@p([1@e([P([P([P([1@u([1@p([1@l([1@e(
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: tuple() takes at most 1 argument (3 given)
+>>> a = tuple("sameer","rakhee","aai")[9G[5P([34G
+>>> a
+('sameer', 'rakhee', 'aai')
+>>> b = "[K" ".a
+('sameer', 'rakhee', 'aai')
+>>> b = "[K" ".[K[K[Ka.p[Ksplut[K[Kit()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'split'
+>>> b = a.split()[K[K[K[K[K[K[K[K[K[K[Ka = ("sameer","rakhee","aai")
+>>> b=a.list()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'list'
+>>> b=a.list()[K[K[K[K[K[K[K[Klist(a)
+>>> a[Kb
+['sameer', 'rakhee', 'aai']
+>>> [K[K[Ka.p[Ksplut[K[Kit()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'split'
+>>> b = a.split()[K[K[K[K[K[K[K[K[K[K[Ka = ("sameer","rakhee","aai")
+>>> b=a.list()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'list'
+>>> b=a.list()[K[K[K[K[K[K[K[Klist(a)
+>>> a[Kb
+['sameer', 'rakhee', 'aai']
+>>> a
+('sameer', 'rakhee', 'aai')
+>>> b[Kb=str)l[K[K)[K)[K)[Ka
+('sameer', 'rakhee', 'aai')
+>>> b[Kb=str)l[K[K)[K)[K)[K[K[K[K[K[K[K[K[K[K[Ka
+('sameer', 'rakhee', 'aai')
+>>> dir(a)
+['__add__', '__class__', '__contains__', '__delattr__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getslice__', '__gt__', '__hash__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'count', 'index']
+>>> ba
+('sameer', 'rakhee', 'aai')
+>>> dir(a)
+['__add__', '__class__', '__contains__', '__delattr__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getslice__', '__gt__', '__hash__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'count', 'index']
+>>> b=str(list(a))
+>>> b
+"['sameer', 'rakhee', 'aai']"
+>>> b=str(list(a))list(a))[Ka))[Ka))[Ka))[Ka))[Ka))[K
+>>> b
+"('sameer', 'rakhee', 'aai')"
+>>> =str(list(a))
+>>> b
+"['sameer', 'rakhee', 'aai']"
+>>> b=str(list(a))list(a))[Ka))[Ka))[Ka))[Ka))[Ka))[K
+>>> b
+"('sameer', 'rakhee', 'aai')"
+>>> b=str(a)
+>>> type)[K(b)
+<type 'str'>
+>>> b
+"('sameer', 'rakhee', 'aai')"
+>>> b=str(a)
+>>> type)[K(b)
+<type 'str'>
+>>> b
+"('sameer', 'rakhee', 'aai')"
+>>> btype(b)[5Gb=str(a)[6G[K[Ka
+('sameer', 'rakhee', 'aai')
+>>> b=list(a)
+>>> b
+['sameer', 'rakhee', 'aai']
+>>> c=b.splitbtype(b)[5Gb=str(a)[6G[K[Ka
+('sameer', 'rakhee', 'aai')
+>>> b=list(a)
+>>> b
+['sameer', 'rakhee', 'aai']
+>>> c=b.split()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'split'
+>>> dir(a[Kb)
+['__add__', '__class__', '__contains__', '__delattr__', '__delitem__', '__delslice__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getslice__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__', '__setslice__', '__sizeof__', '__str__', '__subclasshook__', 'append', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+>>> ()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'split'
+>>> dir(a[Kb)
+['__add__', '__class__', '__contains__', '__delattr__', '__delitem__', '__delslice__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getslice__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__', '__setslice__', '__sizeof__', '__str__', '__subclasshook__', 'append', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+>>> 

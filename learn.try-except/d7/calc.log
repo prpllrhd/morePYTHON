@@ -1,0 +1,6 @@
+2018-03-08 08:40:26,478:sum of 90 and 0 is 90
+2018-03-08 08:40:26,478:you are attempting a zerodivision by dividing 90 by 0
+Traceback (most recent call last):
+  File "learnTryE1.py", line 22, in main
+    divide = x/y
+ZeroDivisionError: integer division or modulo by zero

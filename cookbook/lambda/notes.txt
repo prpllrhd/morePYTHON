@@ -1,0 +1,7 @@
+following topics are covered.
+->lambda
+->map
+->reduce
+->filter
+->functools.reduce
+
